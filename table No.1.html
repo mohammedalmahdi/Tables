@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Table 1 .">
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 600px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table >
+            <caption><h3>Complex Table</h3></caption>
+            <thead>
+            <tr>
+                <th>year</th>
+                <th>group</th>
+                <th>language</th>
+                <th>done</th>
+                <th>passed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="5">2020</th>
+                <th rowspan="2">Web</th>
+                <th style="height: 30px;">html</th>
+                <th colspan="2">yes</th>
+            </tr>
+            
+            <tr>
+                <th>Css</th>
+                <th colspan="2">yes</th> 
+            </tr>
+            <tr>
+                <th rowspan="3">Java</th>
+                <th>js</th>
+                <th>yes</th>
+                <th>no</th>
+            </tr>
+            <tr>
+                <th>php</th>
+                <th colspan="2">yes</th>
+            </tr>
+            <tr>
+                <th>Python</th>
+                <th>yes</th>
+                <th>no</th>
+            </tr>
+        </tbody>
+            
+
+        </table>
+
+    </body>
+</html>
